@@ -1,5 +1,5 @@
 /**
- * lendo arquivo .xlxs com APACHE POI
+ * lendo arquivo .xlsx com APACHE POI
  */
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
