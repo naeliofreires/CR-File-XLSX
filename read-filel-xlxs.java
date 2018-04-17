@@ -1,4 +1,6 @@
-package br.com.app.plano.Util;
+/**
+ * lendo arquivo .xlxs com APACHE POI
+ */
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -31,13 +33,13 @@ public class FileUtil {
                 int z = cell.getColumnIndex();
 
                 switch (z) {
-                    case 18:
+                    case 0:
                         System.out.print(cell.toString() + "\t");
                         break;
-                    case 19:
+                    case 1:
                         System.out.print(cell.toString() + "\t");
                         break;
-                    case 20:
+                    case 2:
                         System.out.print(cell.toString() + "\t");
                         break;
                     default:
